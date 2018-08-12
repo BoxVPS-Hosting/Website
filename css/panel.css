@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+body {
+    background-color: #f1f1f1;
+}
+
+.status {
+    background: #8bf28e; 
+    background: -moz-linear-gradient(-45deg, #8bf28e 0%, #00c7d5 100%); 
+    background: -webkit-linear-gradient(-45deg, #8bf28e 0%,#00c7d5 100%); 
+    background: linear-gradient(135deg, #8bf28e 0%,#00c7d5 100%);
+    border: 0;
+    border-radius: 7px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bf28e', endColorstr='#00c7d5',GradientType=1 );
+    max-width: 400px;
+}
+.status-description {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.status-title {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.line-chart {
+  -webkit-animation: fadeIn 600ms cubic-bezier(0.57, 0.25, 0.65, 1) 1 forwards;
+          animation: fadeIn 600ms cubic-bezier(0.57, 0.25, 0.65, 1) 1 forwards;
+  opacity: 0;
+  max-width: 640px;
+  width: 100%;
+}
+
+.aspect-ratio {
+  height: 0;
+  padding-bottom: 50%;
+}
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
